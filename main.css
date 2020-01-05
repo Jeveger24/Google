@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+
+header{
+    position: relative;
+    display: flex;
+    float: right;
+    margin-right: 4em;
+    margin-top: 0.7em;
+}
+
+header #gmail{
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+header #images{
+    margin-top: 1em;
+    margin-right: 1.7em;
+}
+
+
+header a{
+    font: 13px 'Segoe UI', 'Roboto', arial, sans-serif;
+    color: #262222;
+    text-decoration: none;
+}
+
+header #icon #img{
+    width: 1.9em;
+    height: auto;
+    fill: #5f6368;
+    padding: 8px;
+}
+
+header #icon :hover{
+    display: block;
+    background-color: #EDEDED;
+    border-radius: 50%;
+}
+
+.container{
+    margin: auto;
+    padding-top: 11em;
+    width: 50%;
+    text-align: center;
+}
+
+.container #letters{
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+    font-size: 90px;
+    font-weight: 600;   
+}
+
+.container #letters #g{
+    color: #437EE4;
+}
+
+.container #letters #O{
+    color: #F73F3F;
+}
+
+.container #letters #o{
+    color: #FFC213;
+}
+
+.container #letters #l{
+    color: #228B00;
+}
+
+.container #letters #e{
+    color: #F73F3F;
+}
+
+.container #textbox{
+    margin-top: 2em;
+}
+
+.container #textbox #searchbox{
+    min-width: 410px;
+    max-width: 584px; 
+    height: 44px;
+    border-radius: 22px;
+    border-style: outset;
+    border-bottom-style: inset;
+    border-right-style: inset;
+    border-color: #EDEDED;
+    box-sizing: border-box;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 28);
+    font-size: 16px;
+    transition: none;
+    padding-inline-start: 48px;
+}
